@@ -51,17 +51,6 @@
                         </div>
                         @enderror
                     </div>
-                    {{-- <div class="col-sm-auto mb-3">
-                        <label class="form-label" for="specificSizeSelect">Role</label>
-                        <select style="font-size: 13px" class="form-select" name="role_id" id="role_id">
-                            <option selected disabled>pilih role</option>
-                            @foreach($role as $role)
-                                @if($role->id === 1)
-                                    <option value="{{ $role->id }}">{{ $role->name }}</option>
-                                @endif
-                            @endforeach
-                        </select>
-                    </div> --}}
                 </div>
             </div>
             <div class="d-flex justify-content-between align-items-center mb-5">
